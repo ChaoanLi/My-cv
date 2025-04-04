@@ -1,0 +1,150 @@
+
+%------------------------
+% Resume Template - Revised for Internship (Data/Quant)
+% Candidate: Chaoan Li
+%------------------------
+
+\documentclass[a4paper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{1pt}
+\input{glyphtounicode}
+
+\setlength{\footskip}{4.35004pt}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.530in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.45in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-10pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{\textbf{#1}{: #2 \vspace{-2pt}}}
+}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{#3} & \textit{#4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%----------------------
+% START DOCUMENT
+\begin{document}
+
+% Header
+\begin{center}
+  {\Huge \scshape Chaoan Li} \\ \vspace{1pt}
+  Ph.D. Student in Data Science, Texas A\&M University \\ \vspace{1pt}
+  \small \faPhone\ 979-326-7515 \ \ \href{mailto:chaoan@tamu.edu}{\faEnvelope\ \underline{chaoan@tamu.edu}} \\
+  \href{https://github.com/ChaoanLi}{\faGithub\ github.com/ChaoanLi} \quad 
+  \href{https://chaoanli.github.io}{\faGlobe\ chaoanli.github.io}
+  \vspace{-4pt}
+\end{center}
+
+% Objective
+\section*{Objective}
+Seeking a Summer 2026 internship in Data Science or Quantitative Research where I can apply my strong mathematical background, research skills, and proficiency in Python/R for solving real-world data problems.
+
+% Education
+\section*{Education}
+\resumeSubHeadingListStart
+\resumeSubheading{Texas A\&M University}{College Station, TX}{Ph.D. Student - Data Science}{Aug. 2024 -- Present}
+\resumeSubheading{Beijing Normal University}{Beijing, China}{M.S. - Pure Mathematics; GPA: 3.5/4}{Sep. 2021 -- Jul. 2024}
+\resumeSubheading{Univ. of Science and Technology Beijing}{Beijing, China}{B.S. - Mathematics and Applied Mathematics; GPA: 3.94/4}{Sep. 2017 -- Jul. 2021}
+\resumeSubheading{Univ. of Science and Technology Beijing}{Beijing, China}{Second Major - Financial Engineering; GPA: 3.89/4}{Sep. 2018 -- Jul. 2021}
+\resumeSubHeadingListEnd
+
+% Publications
+\section*{Publications}
+\begin{itemize}
+  \item C. Li, X. Yan and D. Yang, \textit{Anisotropic ball Campanato-type function spaces and their applications}, Anal. Math. Phys. 13 (2023), Paper No. 50, 71 pp.
+  \item C. Li, X. Yan and D. Yang, \textit{Fourier transform of anisotropic Hardy spaces and applications to Hardy--Littlewood inequalities}, Acta Math. Appl. Sin. Engl. Ser (2024), \href{https://doi.org/10.1007/s10255-024-1124-5}{doi:10.1007/s10255-024-1124-5}.
+\end{itemize}
+
+% Projects
+\section*{Projects}
+\resumeSubHeadingListStart
+
+\resumeSubheading{Local-Validation: Model-free Validation Tool}{Python, Simulation, Visualization}{\href{https://github.com/ChaoanLi/local-validation}{github.com/ChaoanLi/local-validation}}{2024}
+\resumeItemListStart
+\resumeItem{Purpose}{Developed a flexible validation tool for statistical functionals using kernel ridge regression.}
+\resumeItem{Contribution}{Designed simulation pipelines to evaluate estimation accuracy under various sampling designs.}
+\resumeItem{Application}{Useful for validating model performance in situations where standard assumptions may not hold.}
+\resumeItem{Tech Stack}{Python, numpy, scipy, matplotlib.}
+\resumeItemListEnd
+
+\resumeSubheading{E-value Inference Toolbox}{R, Statistical Inference, Package Development}{\href{https://github.com/ChaoanLi/E-value}{github.com/ChaoanLi/E-value}}{2024}
+\resumeItemListStart
+\resumeItem{Purpose}{Implemented a general R framework for performing e-value based multiple hypothesis testing.}
+\resumeItem{Contribution}{Designed functions for constructing e-processes, computing test statistics, and validating error control.}
+\resumeItem{Tech Stack}{R, ggplot2, base plotting, custom S3 methods.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+% Honors & Awards
+\section*{Honors \& Awards}
+\begin{itemize}
+  \item 1st Prize Academic Scholarship, Beijing Normal University (2023)
+  \item 2nd Prize of Mathematical Contest in Modeling, Beijing (2020)
+  \item Outstanding Graduate, USTB (2021)
+\end{itemize}
+
+% Teaching
+\section*{Teaching Experience}
+\begin{itemize}
+  \item Teaching Assistant, Functional Analysis – Led weekly discussions for 140+ undergraduates, Beijing Normal University (2022)
+\end{itemize}
+
+% Academic Engagement
+\section*{Academic Engagements}
+\begin{itemize}
+  \item Participated in 2023 Beijing Harmonic Analysis conferences and assisted organizing sessions.
+\end{itemize}
+
+% Skills
+\section*{Skills}
+\begin{itemize}[leftmargin=*]
+  \item \textbf{Programming:} Python (NumPy, pandas, matplotlib, scikit-learn), R (ggplot2, dplyr), SQL, MATLAB, \LaTeX
+  \item \textbf{Concepts:} Statistics, Machine Learning, Optimization, Time Series, Multiple Testing, E-values
+  \item \textbf{Tools:} Git, VSCode, Jupyter Notebook, Overleaf
+\end{itemize}
+
+\end{document}
