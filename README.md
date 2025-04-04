@@ -29,8 +29,8 @@ Seeking a Summer 2026 internship in Data Science or Quantitative Research where 
 
 ## 📚 Publications
 
-- C. Li, X. Yan, D. Yang. *Anisotropic ball Campanato-type function spaces and their applications*, **Analysis and Mathematical Physics**, 13 (2023), Paper No. 50, 71 pp.  
-- C. Li, X. Yan, D. Yang. *Fourier transform of anisotropic Hardy spaces and applications to Hardy–Littlewood inequalities*, **Acta Mathematicae Applicatae Sinica, English Series** (2024). [DOI](https://doi.org/10.1007/s10255-024-1124-5)
+- C. Li, X. Yan, D. Yang. *Anisotropic ball Campanato-type function spaces and their applications*, **Analysis and Mathematical Physics**, 13 (2023), Paper No. 50, 71 pp.  [LINK](https://link.springer.com/article/10.1007/s13324-023-00814-w)
+- C. Li, X. Yan, D. Yang. *Fourier transform of anisotropic Hardy spaces and applications to Hardy–Littlewood inequalities*, **Acta Mathematicae Applicatae Sinica, English Series** (2024). [LINK](https://doi.org/10.1007/s10255-024-1124-5)
 
 ---
 
